@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1c1c1c, #2c2c2c), url('./assets/imagens/fundo-cinema.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #e50914;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sidebar img {
+  width: 60px;
+  margin: 20px 0;
+}
+
+.conteudo {
+  flex: 1;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+form {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  background-color: #1c1c1c;
+  color: white;
+  border: 1px solid #444;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.avaliacao-estrelas {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+#estrelas {
+  font-size: 28px;
+  color: #555;
+  cursor: pointer;
+}
+
+#estrelas .ativa {
+  color: gold;
+}
+
+#ranking h2 {
+  color: #e50914;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+#lista-filmes, #melhores-filmes {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-filmes li, #melhores-filmes li {
+  background-color: #2c2c2c;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.filtro-genero {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
